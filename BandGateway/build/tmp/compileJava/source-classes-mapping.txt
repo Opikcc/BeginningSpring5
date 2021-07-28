@@ -1,0 +1,14 @@
+BandGateway/Song.java
+ BandGateway.Song
+BandGateway/Normalizer.java
+ BandGateway.Normalizer
+BandGateway/Main.java
+ BandGateway.Main
+BandGateway/Resettable.java
+ BandGateway.Resettable
+BandGateway/AbstractMusicService.java
+ BandGateway.AbstractMusicService
+BandGateway/Artist.java
+ BandGateway.Artist
+BandGateway/MusicService.java
+ BandGateway.MusicService

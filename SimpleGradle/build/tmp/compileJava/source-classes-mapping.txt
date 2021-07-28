@@ -1,0 +1,2 @@
+SimpleGradle/Main.java
+ SimpleGradle.Main

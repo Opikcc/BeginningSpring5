@@ -1,0 +1,33 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+
+mainClassName = 'BandGateway.Main'
+
+repositories {
+  mavenLocal()
+  mavenCentral()
+  maven { url "http://repo.spring.io/release" }
+}
+
+ext {
+	springVersion   = "5.0.10.RELEASE"    
+  jacksonVersion  = "2.9.9"
+  testNgVersion   = "6.14.3"
+
+	spring = [
+    core    : "org.springframework:spring-core:$springVersion",
+    context : "org.springframework:spring-context:$springVersion",
+    test    : "org.springframework:spring-test:$springVersion"
+	]
+}
+
+
+dependencies {
+  implementation spring.values()
+  testImplementation "org.testng:testng:$testNgVersion"
+}
+
+test {
+  useTestNG()
+}
