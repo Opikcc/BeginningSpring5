@@ -1,6 +1,0 @@
-Chapter1/HelloWorldGreeter.java
- Chapter1.HelloWorldGreeter
-Chapter1/Main.java
- Chapter1.Main
-Chapter1/Greeter.java
- Chapter1.Greeter
